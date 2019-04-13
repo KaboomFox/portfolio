@@ -32,7 +32,6 @@ const Layout = ({ children }) => (
         <>
           <main css={css`
             min-height: calc(100% - 140px);
-            height: calc(100% - 140px);
             display: flex;
             flex-direction: column;`}>
               {children}
